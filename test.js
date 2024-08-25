@@ -4,8 +4,8 @@ const client = new sdk.Client();
 
 client
     .setEndpoint('http://localhost/v1') // Your API Endpoint
-    .setProject('62387717329626ff1d5a') // Your project ID
-    .setKey('000615ffba60ade50ebabc4f13360f4b78a87b40d6f64e2d3eb3d7b248ed70495f8e6918327c12338d96e1f5a745360db915b7ec71e4e0694cf3c3bc4f9a33a78a183d651f64e75ba1f2f3b920a7fec5b04cb706ddbe962d6922a9631e855198e9d042c8205efcc45a19640e0f55b543570da692fe5bea94381632f161b10913') // Your secret API key
+    .setProject('66715b0d00229a4efa1d') // Your project ID
+    .setKey('ab6099e7d72cc2bdb1fd23b409b2aa4e195fc1fe4e5bb227a96ce28b9080ac0fae22c4ed8e54bdfeb01845807155a651604618403a2c6c27d2c878af6e187f3a65c59bfd8ce475f28c6ad3063d7c9cd5aab2d4a91c46d6dd664090726020513575a4d1095234b86bc1e1ae3716d0afe2324b0f23e3dc47967ef322cc528c07d5') // Your secret API key
 ;
 
 let users = new sdk.Users(client);
