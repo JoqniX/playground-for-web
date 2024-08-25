@@ -10,7 +10,7 @@ client
 
 let users = new sdk.Users(client);
 
-let promise = users.get('623b66a849afa34b5d4e');
+let promise = users.get('66715b0d00229a4efa1d');
 
 promise.then(function (response) {
     console.log(response);
